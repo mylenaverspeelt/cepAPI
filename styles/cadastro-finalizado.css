@@ -8,33 +8,33 @@
 .nav__titulo {
     font-size: 1.8rem;
     font-weight: 700;
-
 }
 
 .principal__cadastro {
-    border: 1px solid red;
+    max-width: 40rem;
+    padding: 0 2rem;
+    margin: 3em auto;
     display: flex;
     flex-direction: column;
-    margin: 3rem auto;
-    max-width: 40rem;
-    justify-content: center;
-    padding: 0 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-
-
-    font-weight: 700;
-    font-size: 1.8rem;
-    color: var(--laranja);
-
+.cadastro__imagem {
+    width: 25rem;
+    height: 20rem;
 }
 
 .principal__titulo {
-    border: 1px solid red;}
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--laranja);
+}
 
 .principal__subtitulo {
-    border: 1px solid red;}
-
-.cadastro__imagem {
-    width: 5rem;
-    height: 5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 26px;
+    color: var(--azul);
+    margin: 3em 0 2em 0;
 }
