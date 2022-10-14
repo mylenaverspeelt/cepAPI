@@ -1,0 +1,40 @@
+.nav {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 1em;
+}
+
+.nav__titulo {
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+
+.principal__cadastro {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    max-width: 40rem;
+    justify-content: center;
+    padding: 0 2rem;
+
+
+
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--laranja);
+
+}
+
+.principal__titulo {
+    border: 1px solid red;}
+
+.principal__subtitulo {
+    border: 1px solid red;}
+
+.cadastro__imagem {
+    width: 5rem;
+    height: 5rem;
+}
